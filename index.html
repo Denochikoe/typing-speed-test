@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing speed test</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <h1>Program to test typing-speed</h1>
+    <p><strong>Tip:</strong> Read the words before trying to type!</p>
+   <div class="container">
+<div class="content">
+        <div class="form-group">
+            <label for="text">
+                <h3>The quick brown fox jumps over the lazy dog.</h3>
+                <input name="text" id="text_" cols="50" rows="10" class="form-control" placeholder="Type here..."></input>
+                <button type="submit" class="btn btn-primary" id="submit" name="submit" onclick="">Test</button>
+            </label>
+        </div>
+    </div>
+</div>
+<p class="results" id="results">Words per minute: <span id="results_"></p> 
+<p class="error" id="error">Mistakes:<span id="mistakes_"></span></p>
+<p class="accuracy" id="accuracy">Accuracy</p>
+<button id="reset" onclick="">Test</button>
+<p id="test_button"></p>
+<script src="script.js"></script>
+</body>
+</html
